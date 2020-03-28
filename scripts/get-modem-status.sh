@@ -21,3 +21,7 @@ else
     exit 1
 fi
 
+# todo, replace RSRQ line in output with these levels, putting at end of line.
+# same w/ band # to freq's
+cat levels.txt
+echo -e "\n"

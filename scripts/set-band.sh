@@ -16,5 +16,3 @@ else
     ./get-modem-status.sh
 
 fi
-
-# It's too bad VZW blocks service mode. You can't aggregate B5 with B13. Only 13+66+2,5+66+2. Does your area have B2?

@@ -1,0 +1,157 @@
+https://community.netgear.com/t5/Mobile-Routers-Hotspots-Modems/Nighthawk-M1-Only-3-Component-Carriers-CC-supported-and-up-to-4/m-p/1463768
+
+According to the M1 specifications published on page 87 of the manual, 
+it only supports 3 x CA the following frequency combinations are supported 
+1800+700, 1800+2600, 2600+700, 2600+2600, 700+1800+2600, 1800+2600+2600, 
+700+2600+2600 MHz
+
+
+https://www.netgear.com/images/datasheet/mobile/MR1100_100NAS.pdf
+Max 1 Gbps download speeds, and 150
+Mbps upload speeds
+• LTE CAT 16, 4-band CA and 4x4 MIMO
+• Up to 4X Carrier Aggregation
+• LTE/4G Bands: 1, 2, 3, 4, 5, 7, 12, 14, 29, 30, 66
+• 3G Bands: 2, 4, 5
+
+
+i saw 2 12 66
+30 2 29
+
+not sure how uplink vs downlink freq factors into the above 3x CA combos.
+2 12 66 happened, but the statement makes it seem not possible, at least for DL freqs.
+
+
+https://www.everythingrf.com/community/lte-frequency-bands
+https://en.wikipedia.org/wiki/LTE_frequency_bands
+
+FDD LTE Frequency Bands
+
+LTE Band Number	| Uplink Band (MHz) | Downlink Band (MHz) | Band Width (MHz) | Duplex Spacing (MHz) | Band Gap (MHz)
+LTE Band 1	      1920 - 1980	       2110 - 2170	        60 MHz	190 MHz	130 MHz
+LTE Band 2	      1850 - 1910	       1930 - 1990	        60 MHz	80 MHz	20 MHz
+LTE Band 3	      1710 - 1785	       1805 - 1880	        75 MHz	95 MHz	20 MHz
+LTE Band 4	      1710 - 1755	       2110 - 2155	        45 MHz	400 MHz	355 MHz
+LTE Band 5	      824 - 849	           869 - 894	        25  MHz	45 MHz	20 MHz
+LTE Band 6	      830 - 840	           875 - 885	        10 MHz	35 MHz	25 MHz
+LTE Band 7	      2500 - 2570	       2620 - 2690	        70 MHz	120 MHz	50 MHz
+LTE Band 8	      880 - 915	           925 - 960	        35 MHz	45 MHz	10 MHz
+LTE Band 9	      1749.9 - 1784.9	   1844.9 - 1879.9	    35 MHz	95 MHz	60 MHz
+LTE Band 10	      1710 - 1770	       2110 - 2170	        60 MHz	400 MHz	340 MHz
+LTE Band 11	      1427.9 - 1452.9	    1475.9 - 1500.9	    20 MHz	48 MHz	28 MHz
+LTE Band 12	      698 - 716	           728 - 746	        18 MHz	30 MHz	12 MHz
+LTE Band 13	      777 - 787	           746 - 756	        10 MHz	-31 MHz	41 MHz
+LTE Band 14	      788 - 798	           758 - 768	        10 MHz	-30 MHz	40 MHz
+LTE Band 15	      1900 - 1920	       2600 - 2620	        20 MHz	700 MHz	680 MHz
+LTE Band 16	      2010 - 2025	       2585 - 2600	        15 MHz	575 MHz	560 MHz
+LTE Band 17	      704 - 716	           734 - 746	        12 MHz	30 MHz	18 MHz
+LTE Band 18	      815 - 830	           860 - 875	        15 MHz	45 MHz	30 MHz
+LTE Band 19	      830 - 845	           875 - 890	        15 MHz	45 MHz	30 MHz
+LTE Band 20	      832 - 862	           791 - 821	        30 MHz	-41 MHz	71 MHz
+LTE Band 21	      1447.9 - 1462.9	   1495.5 - 1510.9	    15 MHz	48 MHz	33 MHz
+LTE Band 22	      3410 - 3500	       3510 - 3600	        90 MHz	100 MHz	10 MHz MHz
+LTE Band 23	      2000 - 2020	       2180 - 2200	        20 MHz	180 MHz	160 MHz
+LTE Band 24	      1625.5 - 1660.5	   1525 - 1559	        34 MHz	-101.5 MHz	135.5 MHz
+LTE Band 25	      1850 - 1915	       1930 - 1995	        65 MHz	80 MHz	15 MHz
+LTE Band 26	      814 - 849	           859 - 894	        30 / 40 MHz	10 MHz            
+LTE Band 27	      807 - 824	           852 - 869	        17 MHz	45 MHz	28 MHz
+LTE Band 28	      703 - 748	           758 - 803	        45 MHz	55 MHz	10 MHz
+LTE Band 29	      n/a	               717 -728	            11 MHz	
+			      
+LTE Band 30	      2305 - 2315	       2350 - 2360      	10 MHz	45 MHz	35 MHz
+LTE Band 31	      452.5 - 457.5	       462.5 - 467.5	    5 MHz	10 MHz	5 MHz
+
+
+TDD LTE Frequency Bands
+
+LTE Band Number	Frequency (MHz)	Bandwidth (MHz)
+33	1900 - 1920	20
+34	2010 - 2025	15
+35	1850 - 1910	60
+36	1930 - 1990	60
+37	1910 - 1930	20
+38	2570 - 2620 	50
+39	1880 - 1920	40
+40	2300 - 2400	100
+41	2496 - 2690	194
+42	3400 - 3600	200
+43	3600 - 3800	200
+44	703 - 803	100
+
+
+
+
+
+
+Band	Duplex
+mode[A 1]	ƒ
+(MHz)	Common
+name	Subset of band	Uplink[A 2]
+(MHz)	Downlink[A 3]
+(MHz)	Duplex spacing
+(MHz)	Channel bandwidths
+(MHz)
+1	FDD	2100	IMT	65	1920 – 1980	2110 – 2170	190	5, 10, 15, 20
+2	FDD	1900	PCS[A 4]	25	1850 – 1910	1930 – 1990	80	1.4, 3, 5, 10, 15, 20
+3	FDD	1800	DCS		1710 – 1785	1805 – 1880	95	1.4, 3, 5, 10, 15, 20
+4	FDD	1700	AWS‑1[A 4]	66	1710 – 1755	2110 – 2155	400	1.4, 3, 5, 10, 15, 20
+5	FDD	850	Cellular	26	824 – 849	869 – 894	45	1.4, 3, 5, 10
+7	FDD	2600	IMT-E		2500 – 2570	2620 – 2690	120	5, 10, 15, 20
+8	FDD	900	Extended GSM		880 – 915	925 – 960	45	1.4, 3, 5, 10
+11	FDD	1500	Lower PDC	74	1427.9 – 1447.9	1475.9 – 1495.9	48	5, 10
+12	FDD	700	Lower SMH[A 5]	85	699 – 716	729 – 746	30	1.4, 3, 5, 10
+13	FDD	700	Upper SMH[A 6]		777 – 787	746 – 756	−31	5, 10
+14	FDD	700	Upper SMH[A 7]		788 – 798	758 – 768	−30	5, 10
+17	FDD	700	Lower SMH[A 8]	12, 85	704 – 716	734 – 746	30	5, 10
+18	FDD	850	Lower 800 (Japan)	26	815 – 830	860 – 875	45	5, 10, 15
+19	FDD	850	Upper 800 (Japan)	26	830 – 845	875 – 890	45	5, 10, 15
+20	FDD	800	Digital Dividend (EU)		832 – 862	791 – 821	−41	5, 10, 15, 20
+21	FDD	1500	Upper PDC	74	1447.9 – 1462.9	1495.9 – 1510.9	48	5, 10, 15
+24	FDD	1600	Upper L‑Band (US)		1626.5 – 1660.5	1525 – 1559	−101.5	5, 10
+25	FDD	1900	Extended PCS[A 9]		1850 – 1915	1930 – 1995	80	1.4, 3, 5, 10, 15, 20
+26	FDD	850	Extended Cellular		814 – 849	859 – 894	45	1.4, 3, 5, 10, 15
+28	FDD	700	APT		703 – 748	758 – 803	55	3, 5, 10, 15, 20
+29	SDL	700	Lower SMH[A 10]		N/A	717 – 728	N/A	3, 5, 10
+30	FDD	2300	WCS[A 11]		2305 – 2315	2350 – 2360	45	5, 10
+31	FDD	450	NMT		452.5 – 457.5	462.5 – 467.5	10	1.4, 3, 5
+32	SDL	1500	L‑Band (EU)	75	N/A	1452 – 1496	N/A	5, 10, 15, 20
+34	TDD	2000	IMT		2010 – 2025	N/A	5, 10, 15
+37	TDD	1900	PCS[A 12]		1910 – 1930	N/A	5, 10, 15, 20
+38	TDD	2600	IMT-E[A 12]	41	2570 – 2620	N/A	5, 10, 15, 20
+39	TDD	1900	DCS–IMT Gap		1880 – 1920	N/A	5, 10, 15, 20
+40	TDD	2300	S-Band		2300 – 2400	N/A	5, 10, 15, 20
+41	TDD	2500	BRS		2496 – 2690	N/A	5, 10, 15, 20
+42	TDD	3500	CBRS (EU, Japan)		3400 – 3600	N/A	5, 10, 15, 20
+43	TDD	3700	C-Band		3600 – 3800	N/A	5, 10, 15, 20
+44	TDD	700	APT		703 – 803	N/A	3, 5, 10, 15, 20
+46	TDD	5200	U-NII[A 13]		5150 – 5925	N/A	10, 20
+47	TDD	5900	U-NII-4[A 14]		5855 – 5925	N/A	10, 20
+48	TDD	3500	CBRS (US)		3550 – 3700	N/A	5, 10, 15, 20
+49	TDD	3500	C-Band	48	3550 – 3700	N/A	10, 20
+50	TDD	1500	L‑Band (EU)		1432 – 1517	N/A	3, 5, 10, 15, 20
+51	TDD	1500	L‑Band Extension (EU)		1427 – 1432	N/A	3, 5
+52	TDD	3300	C-Band		3300 – 3400	N/A	5, 10, 15, 20
+53	TDD	2400	S-Band		2483.5 – 2495	N/A	1.4, 3, 5, 10
+65	FDD	2100	Extended IMT		1920 – 2010	2110 – 2200	190	5, 10, 15, 20
+66	FDD	1700	Extended AWS (AWS‑1–3)[A 15]		1710 – 1780	2110 – 2200[2]	400	1.4, 3, 5, 10, 15, 20
+67	SDL	700	EU 700		N/A	738 – 758	N/A	5, 10, 15, 20
+68	FDD	700	ME 700		698 – 728	753 – 783	55	5, 10, 15
+69	SDL	2600	IMT-E[A 12]		N/A	2570 – 2620	N/A	5
+70	FDD	1700	Supplementary AWS (AWS‑2–4)[3]		1695 – 1710	1995 – 2020	295 – 300[4]	5, 10, 15
+71	FDD	600	Digital Dividend (US)		663 – 698	617 – 652	−46	5, 10, 15, 20
+72	FDD	450	PMR (EU)		451 – 456	461 – 466	10	1.4, 3, 5
+73	FDD	450	PMR (APT)		450 – 455	460 – 465	10	1.4, 3, 5
+74	FDD	1500	Lower L‑Band (US)		1427 – 1470	1475 – 1518	48	1.4, 3, 5, 10, 15, 20
+75	SDL	1500	L‑Band (EU)		N/A	1432 – 1517	N/A	5, 10, 15, 20
+76	SDL	1500	L‑Band Extension (EU)		N/A	1427 – 1432	N/A	5
+85	FDD	700	Extended Lower SMH[A 5]		698 – 716	728 – 746	30	5, 10
+87	FDD	410	PMR (APT)		410 – 415	420 – 425	10	1.4, 3, 5
+88	FDD	410	PMR (EU)		412 – 417	422 – 427	10	1.4, 3, 5
+Band	Duplex
+mode[A 1]	ƒ
+(MHz)	Common
+name	Subset of band	Uplink[A 2]
+(MHz)	Downlink[A 3]
+(MHz)	Duplex spacing
+(MHz)	Channel bandwidths
+(MHz)

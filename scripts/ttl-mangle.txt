@@ -1,0 +1,4 @@
+sudo iptables -t mangle -A POSTROUTING -j TTL --ttl-set 65
+
+https://www.reddit.com/r/hacking/comments/54a7dd/bypassing_tmobiles_tethering_data_capthrottling/
+https://www.snbforums.com/threads/ttl-modify-using-iptables-t-mangle.21633/

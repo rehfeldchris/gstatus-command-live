@@ -1,0 +1,13 @@
+RSRP (Reference Signal Received Power)
+-115 -105     -95  -85
+POOR MODERATE GOOD GREAT
+
+RSRQ (Reference Signal Received Quality) = (N * RSRP) / RSSI 
+-19  -17      -14  -12
+POOR MODERATE GOOD GREAT
+
+RSSNR
+-30  10       45   130
+POOR MODERATE GOOD GREAT
+
+RSSI (Received Signal Strength Indicator)
